@@ -13,5 +13,6 @@ services:
       - ./src/.env:/app/.env
       - ./src/utils/:/app/utils
       - ./src/source/:/app/source
+      - ./src/cron/log_1hour.txt:/app/log_1hour.txt
     extra_hosts:
       - "host.docker.internal:host-gateway"
