@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+  jeju:
+    image: mariadb:latest
+    restart: unless-stopped
+    container_name: JeJu
+    volumes:
+      - ./RDBMS/MariaDB:/var/lib/mysql
+    ports:
+      - 13307:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=test
+networks:
+  service:
+    driver: bridge
+volumes:
+  sqlserver_data:

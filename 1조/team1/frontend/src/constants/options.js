@@ -1,0 +1,58 @@
+// src/constants/options.js
+
+export const categoryOptions = [
+  { value: "11", label: "한식" },
+  { value: "12", label: "중식" },
+  { value: "13", label: "일식" },
+  { value: "14", label: "양식" },
+  { value: "15", label: "분식" },
+  { value: "16", label: "제과" },
+  { value: "17", label: "카페" },
+  { value: "18", label: "음식점업" },
+  { value: "19", label: "기타요식업" },
+  { value: "20", label: "세탁업" },
+  { value: "21", label: "기타서비스" },
+  { value: "22", label: "숙박" },
+  { value: "23", label: "숙박업" },
+  { value: "24", label: "기타" },
+  { value: "25", label: "미용" },
+  { value: "26", label: "미용업" },
+  { value: "27", label: "이미용업" },
+  { value: "28", label: "기타비요" },
+  { value: "29", label: "기타비요식" },
+];
+
+export const regionOptions = [
+  { value: "101", label: "건입동" },
+  { value: "102", label: "구좌읍" },
+  { value: "103", label: "노형동" },
+  { value: "104", label: "도두동" },
+  { value: "105", label: "봉개동" },
+  { value: "106", label: "삼도1동" },
+  { value: "107", label: "삼도2동" },
+  { value: "108", label: "삼양동" },
+  { value: "109", label: "아라동" },
+  { value: "110", label: "애월읍" },
+  { value: "111", label: "연동" },
+  { value: "112", label: "오라동" },
+  { value: "113", label: "외도동" },
+  { value: "114", label: "용담1동" },
+  { value: "115", label: "용담2동" },
+  { value: "116", label: "이도1동" },
+  { value: "117", label: "이도2동" },
+  { value: "118", label: "이호동" },
+  { value: "119", label: "일도1동" },
+  { value: "120", label: "일도2동" },
+  { value: "121", label: "조천읍" },
+  { value: "122", label: "추자면" },
+  { value: "123", label: "한림읍" },
+  { value: "124", label: "화북동" },
+  { value: "125", label: "한경면" },
+];
+
+export const quickFilters = [
+  { id: "open", label: "영업중", color: "#10b981" },
+  { id: "nearby", label: "가까운곳", color: "#3b82f6" },
+  { id: "cheap", label: "저렴한", color: "#f59e0b" },
+  { id: "rating", label: "평점높은", color: "#8b5cf6" },
+];

@@ -1,0 +1,8 @@
+CREATE DATABASE goodstore;
+
+CREATE USER 'dev'@'%' IDENTIFIED BY 'dev1234';
+-- GRANT ALL PRIVILEGES ON goodstore.* TO 'dev'@'%';
+GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, ALTER ON goodstore.* TO 'dev'@'%';
+
+FLUSH PRIVILEGES;
+SHOW GRANTS FOR 'dev'@'%';

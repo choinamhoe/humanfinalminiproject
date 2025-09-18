@@ -1,0 +1,57 @@
+.drop-zone {
+  background-image: url("../../public/dog-image.jpg");
+  background-size: cover;
+  width: 600px;
+  height: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.drop-zone p {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.login-form > div:last-child {
+  display: flex;
+  gap: 2px;
+  justify-content: center;
+}
+
+.qa-form div {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+.qa-form div > button {
+  flex: 1;
+}
+
+.qa-form textarea {
+  height: 200px;
+  resize: vertical;
+}
+
+.spinner {
+  border: 6px solid #f3f3f3; /* 연한 회색 바깥 테두리 */
+  border-top: 6px solid #3498db; /* 회전할 부분 색상 */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite; /* 무한 회전 */
+  margin: auto; /* 가운데 정렬 */
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
